@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --brandcolor: #2196f3;
+  --basecolor: #212121;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contact li {
+  font-weight: 500;
+  color: #757575;
+}
+
+.surf {
+  font-weight: 500;
+  color: var(--basecolor);
+}
+
+a:link {
+  text-decoration: none;
+  color: currentcolor;
+}
+
+a:visited {
+  color: currentColor;
+  text-decoration: none;
+  line-height: 1.7;
+}
+
+a:hover {
+  color: var(--brandcolor);
+  text-decoration: none;
+}
+
+footer .logo,
+header .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: var(--brandcolor);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.partner {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.services h3 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.buttonpro {
+  background-color: #f5f4fa;
+  color: var(--basecolor);
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.buttonpro:hover {
+  background-color: var(--brandcolor);
+  color: #ffffff;
+}
+
+.activebutton {
+  background-color: var(--brandcolor);
+  color: #ffffff;
+}
+
+.servicebutton {
+  background-color: var(--brandcolor);
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+
+.servicebutton:hover {
+  background-color: #f5f4fa;
+  color: var(--basecolor);
+}
+
+address {
+  text-decoration: none;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.products {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--basecolor);
+  line-height: 2;
+}
+
+.projects li {
+  cursor: pointer;
+}
+
+.job {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  line-height: 1.8;
+}
+
+.margin1 {
+  background-color: #2f303a;
+}
+
+.margin2 {
+  background-color: #f5f4fa;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header .active {
+  color: var(--brandcolor);
+}
+
+footer .mt {
+  color: #afb1b8;
+  line-height: 1.7;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.mt:hover {
+  color: var(--brandcolor);
+  text-decoration: none;
+}
+
+.text {
+  line-height: 1.7;
+}
