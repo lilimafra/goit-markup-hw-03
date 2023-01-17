@@ -5,26 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <div class="container">
-    <header class="headb">
+    <header class="container headb">
+      <div class="cont_nav">
       <a class="logo" href="./index.html"> WebStudio</a>
-      <nav class="cont_nav">
+      <nav>
         <ul class="surf">
           <li><a class="active" href="./index.html"> Estudio </a></li>
           <li><a href="./portfolio.html"> Portafolio </a></li>
           <li><a href="#"> Contactos </a></li>
         </ul>
       </nav>
+      </div>
 
       <!--Contacto-->
-      <ul class="contact">
+      <div class="contact"> 
+      <ul class="contact_li">
         <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
         <li><a href="tel:+525555296000">+52 55 5529 6000</a></li>
       </ul>
+      </div>
     </header>
 
     <main>
@@ -37,7 +44,7 @@
       </section>
 
       <!--Caracteristicas-->
-      <section>
+      <section class="container">
         <ul class="services">
           <li>
             <h3>Atención a los detalles</h3>
@@ -72,9 +79,9 @@
       </section>
 
       <!--Sección 1-->
-      <section class="Cont_Img">
+      <section class="container">
         <h2>A qué nos dedicamos</h2>
-        <ul>
+        <ul class="Cont_Img">
           <li>
             <img
               src="./images/img_1.jpg"
@@ -94,7 +101,8 @@
       <!--Seccion 2-->
       <section class="margin2">
         <h2>Nuestro Equipo</h2>
-        <ul>
+        <div class="container">
+        <ul class="team">
           <li>
             <img src="./images/img_4.jpg" alt="Andres Cubo" width="270" />
             <h3 class="partner">Andres Cubos</h3>
@@ -116,6 +124,7 @@
             <p class="job">Diseñador IU</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
@@ -138,6 +147,5 @@
         </ul>
       </address>
     </footer>
-    </div>
   </body>
 </html>
