@@ -57,7 +57,7 @@ header .logo {
   display: flex;
   align-items: center;
   margin: 0px;
-  padding: 0px;
+  padding-right: 93px;
 }
 
 h1 {
@@ -100,7 +100,8 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   justify-content: left;
-  padding: 0;
+  padding-top: 95px;
+  gap: 37px;
 }
 
 
@@ -216,6 +217,7 @@ address {
 .team {
   display: flex;
   justify-content: center;
+  gap: 37px;
 }
 
 ul {
@@ -246,7 +248,8 @@ footer .mt {
 .container{
   width: 1200px;
   margin: 0 auto;
-  
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .containerteam{
   background-color: #F5F4FA;
