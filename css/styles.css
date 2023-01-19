@@ -117,10 +117,8 @@ h2 {
   background-color: #f5f4fa;
   color: var(--basecolor);
   font-size: 16px;
-  padding: 5px;
   border: none;
   cursor: pointer;
-  margin: 8px;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
@@ -128,38 +126,38 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   width: 128px;
+  gap: 8px;
+  height: 38px;
 }
 
 .buttonpro:hover {
   background-color: var(--brandcolor);
   color: #ffffff;
+  filter: drop-shadow(0px 2px 2px rgba(7, 7, 7, 0.12));
 }
 
 .activebutton {
   background-color: var(--brandcolor);
   color: #ffffff;
+  filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.25));
 }
 
 .servicebutton {
   background-color: var(--brandcolor);
   color: #ffffff;
-  padding: 10px;
   cursor: pointer;
-  border: none;
+  border: 15px;
   font-size: 16px;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   line-height: 1.8;
-  width: 261 px;
-  height: 50 px;
   justify-content: center;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  border: 2px , var(--brandcolor);
-
+  gap: 10px;
 }
 
 .servicebutton:hover {
@@ -184,12 +182,19 @@ address {
   color: var(--basecolor);
   line-height: 2;
 }
+
+.productsd{
+  line-height: 1;
+  margin-top: 7px;
+  
+
+}
 .projects{
   display: flex;
-  margin: auto;
   flex-wrap: wrap;
-  padding:0px;
-  padding-left: 215px;
+  gap: 30px;
+
+
   }
 
 .projects li {
@@ -243,6 +248,7 @@ footer .mt {
 .text {
   line-height: 1.7;
   color: #757575;
+  margin-top: 10px;
 }
 
 .container{
@@ -302,27 +308,29 @@ padding: 0;
 
 
 .button_ser{
-  display: flex;
   align-items: center;
-  padding-left: 495px;
-  padding-right: 495px;
+  justify-content: center;
+  display: flex;
+  gap: 8px ;
   padding-bottom: 50px;
-  margin:auto;
+  padding-top: 106px;
 }
+.box_service{
+width:370px ;
+
+}
+
 .projects>li{
-  width: 370px;
-  height: 404px;
-  margin-right: 20px;
-  margin-bottom: 20px;
   background: #ffffff;
   line-height: 0;
 }
 .box_element{
   border: 1px solid #EEEEEE;
+  height: 100px;
 }
 
 .projects>li:hover{
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 1px 1px rgba(0, 0, 0, 0.16);
 }
 .job {
   font-weight: 400;
@@ -343,4 +351,20 @@ padding: 0;
   text-align: left;
   margin-left: 24px;
   margin-bottom: 4px;
+}
+.marginfooter {
+  background-color: #2f303a;
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25))
+}
+.Marginfp{
+  margin-top: 82px;
+}
+.backtems{
+  background-color: #F5F4FA;
+  margin-top: 94px;
 }

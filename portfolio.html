@@ -13,27 +13,31 @@
   </head>
 
   <body>
-    <div class="container">
-    <header class="headb">
+    <header class="container headb">
+      <div class="cont_nav">
       <a class="logo" href="./index.html"> WebStudio</a>
-      <nav class="cont_nav">
+      <nav>
         <ul class="surf">
-          <li><a href="./index.html"> Estudio </a></li>
-          <li><a class="active" href="./portfolio.html"> Portafolio </a></li>
+          <li><a class="active" href="./index.html"> Estudio </a></li>
+          <li><a href="./portfolio.html"> Portafolio </a></li>
           <li><a href="#"> Contactos </a></li>
         </ul>
       </nav>
+      </div>
 
       <!--Contacto-->
-      <ul class="contact">
+      <div class="contact"> 
+      <ul class="contact_li">
         <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
         <li><a href="tel:+525555296000">+52 55 5529 6000</a></li>
       </ul>
+      </div>
     </header>
+  
     <main>
       <!--Servicios-->
       <section>
-        <ul class="button_ser">
+        <ul class="container button_ser ">
           <li>
             <button class="buttonpro activebutton" type="button">Todo</button>
           </li>
@@ -50,8 +54,9 @@
             <button class="buttonpro" type="button">Marketing</button>
           </li>
         </ul>
-        <ul class="projects">
-          <li>
+        <!--Portafolio de Servicios-->
+        <ul class="projects container">
+          <li class="box_service">
             <img
               src="./images/img_8.jpg"
               alt="Sitio-web_Tecnoduck"
@@ -63,10 +68,10 @@
             </div>
             
           </li>
-          <li>
+          <li class="box_service">
             <img src="./images/img_9.jpg" alt="Diseño_Poster" width="370" />
             <div class="box_element">
-            <h3 class="products">Póster de Nueva Orleans Vs Estrella Dorada</h3>
+            <h3 class="products productsd">Póster de Nueva Orleans Vs Estrella Dorada</h3>
             <p class="job">Diseño</p>
             </div>
           </li>
@@ -147,9 +152,9 @@
       </section>
     </main>
 
-    <footer class="margin1">
-      <a class="logo" href="./index.html"> WebStudio </a>
-      <address>
+    <footer class="marginfooter Marginfp">
+      <a class="logo container" href="./index.html"> WebStudio </a>
+      <address class="container">
         <ul>
           <li>
             <a
@@ -162,9 +167,7 @@
           <li>
             <a class="mt" href="mailto:info@example.com"> info@example.com </a>
           </li>
-          <li>
-            <a class="mt" href="tel:+525555296000"> +52 55 5529 6000 </a>
-          </li>
+          <li><a class="mt" href="tel:+525555296000"> +52 55 5529 6000 </a></li>
         </ul>
       </address>
     </footer>
