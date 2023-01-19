@@ -160,11 +160,6 @@ h2 {
   gap: 10px;
 }
 
-.servicebutton:hover {
-  background-color: #f5f4fa;
-  color: var(--basecolor);
-}
-
 address {
   text-decoration: none;
   font-style: normal;
@@ -368,4 +363,8 @@ width:370px ;
 .backtems{
   background-color: #F5F4FA;
   margin-top: 94px;
+}
+
+.servicebutton{
+  padding: 10px 32px;
 }
